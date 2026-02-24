@@ -1,14 +1,13 @@
 package main
 
-import(
-	f "fmt"	
-	losTipasos "go-master/types"
-	_"go-master/converter"
+import(	
+"fmt"
 )
 
-
+var glob
 
 func main() {
 
+		
 
 }
