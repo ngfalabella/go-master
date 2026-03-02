@@ -14,7 +14,8 @@ func main() {
 	
 	// pointer.RetornarPointer()
 	// fmt.Println("Fin del programa")
-	// precio := 50
+	precio := 50
+	lugarDePrecio := &precio
 	// //valorActualizado := funciones.PrecioPorDiez(precio)
 
 	// referencia := funciones.PrecioPuntero(&precio)
@@ -31,4 +32,7 @@ func main() {
 		funciones.FuncionesArgumentosIlimitados(1,2)
 		funciones.FuncionesArgumentosIlimitados(1,2,3)
 		funciones.FuncionesArumentosIlimitadosDos("I","N","I","C","I","O" )
+		fmt.Println(&precio)
+		fmt.Println(lugarDePrecio)
+		fmt.Println(*lugarDePrecio)
 }
